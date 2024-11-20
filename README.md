@@ -157,7 +157,15 @@ The test accuracy of the iteratively pruned models with different defense method
 
 For example, the evaluation results of cifar10-resnet18 pruned model with `slide_ml2` defense are stored in `log/cifar10_resnet18/iter_pruning_0.6_slide_ml2.txt`, where "Victim pruned model test accuracy" represents prediction accuracy of the pruned model, and "[attack name] attack accuracy" represents accuracy of MIAs on the pruned model. Additionally, you can check the defense time required for the current defense through "Total [defense name] defend time".
 
-
+## Citation
+```
+@inproceedings{shang2025iteratively,
+  title = {Defending Against Membership Inference Attacks on Iteratively Pruned Deep Neural Networks},
+  booktitle = {Network and Distributed System Security (NDSS) Symposium},
+  author={Shang, Jing and Wang, Jian and Wang, Kailun and Liu, Jiqiang and Jiang, Nan and Armanuzzaman, MD and Zhao, Ziming},
+  year={2025}
+}
+```
 
 
 
