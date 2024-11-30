@@ -97,3 +97,4 @@ def one_hot_embedding(y, num_classes=10, dtype=torch.FloatTensor):
     y_tensor = y.view(*y.size(), -1)
     zeros = torch.zeros(*y.size(), num_classes).type(dtype).to(y.device)
     return torch.scatter(zeros, scatter_dim, y_tensor, 1)
+    

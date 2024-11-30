@@ -6,6 +6,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from utils import seed_worker
 
 
+
 class MiaAttack:
     def __init__(self, victim_model, victim_pruned_model, victim_train_loader, victim_test_loader,
                  shadow_model_list, shadow_pruned_model_list, shadow_train_loader_list, shadow_test_loader_list,

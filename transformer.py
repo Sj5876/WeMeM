@@ -3,6 +3,7 @@ import torch.nn.functional as F
 from torch import nn
 
 
+
 class Transformer(nn.Module):
     def __init__(self, input_dim=10, output_dim=2, hidden_dim=64, num_layers=3, nhead=4, dropout=0.2):
         super().__init__()

@@ -5,6 +5,7 @@ import torch.nn.functional as F
 from torch import nn
 
 
+
 class ColumnFC(nn.Module):
     def __init__(self, input_dim=100, output_dim=100, dropout=0.1):
         super(ColumnFC, self).__init__()

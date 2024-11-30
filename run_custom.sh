@@ -49,3 +49,4 @@ python prune_modi.py 0 ./config/location.json --pruner_name iter_prunetxt --prun
 python mia_modi.py 0 ./config/location.json --pruner_name iter_prunetxt --prune_sparsity 0.6 --attacks threshold,samia --defend dp --defend_arg 0.1 --adaptive
 
 
+

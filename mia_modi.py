@@ -14,6 +14,7 @@ from base_model import BaseModel
 from datasets import get_dataset
 from torch.utils.data import ConcatDataset, DataLoader, Subset
 
+
 parser = argparse.ArgumentParser(description='Membership inference Attacks on Network Pruning')
 parser.add_argument('device', default=0, type=int, help="GPU id to use")
 parser.add_argument('config_path', default=0, type=str, help="config file path")

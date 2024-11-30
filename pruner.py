@@ -24,3 +24,4 @@ def get_pruner(pruner_name, model, sparsity=0.5, prune_iter = 5):
         return LotteryTicketPruner(model, config_list, reset_weights=False)
     else:
         raise ValueError
+

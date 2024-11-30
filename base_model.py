@@ -8,6 +8,7 @@ from functools import partial
 from utils import get_model, get_optimizer, weight_init, CrossEntropy_soft,one_hot_embedding
 
 
+
 class BaseModel:
     def __init__(self, model_type, device="cuda", save_folder="", num_cls=10,
                  optimizer="", lr=0.01, weight_decay=0, input_dim=100, epochs=0, attack_model_type='', weight_decay_mem=5e-4):

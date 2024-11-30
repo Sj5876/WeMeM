@@ -4,6 +4,7 @@ This code is modified from https://github.com/inspire-group/membership-inference
 import numpy as np
 
 
+
 class ThresholdAttacker:
     def __init__(self, shadow_train_performance, shadow_test_performance,  target_train_performance,
                  target_test_performance, num_classes):

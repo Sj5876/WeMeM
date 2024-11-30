@@ -14,6 +14,7 @@ import random
 from pynvml import *
 from utils import *
 
+
 parser = argparse.ArgumentParser()
 
 data_score_path = 'memscore'
