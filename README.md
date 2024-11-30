@@ -20,7 +20,7 @@ conda activate python-pytorch
 pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu111/torch_stable.html
 pip install scikit-learn pandas matplotlib nni==2.3 pynvml tensorboard
 ```
-**Note:** All dependencies of the project are in the `requirements.txt` we provide, you can also install them directly through this file.  
+**Note:** All dependencies of the project are in the `requirements.txt` we provide. You can also install them directly through this file after activating the virtual environment.  
 
 ### Datasets and Models
 1. **Structure of Important Folders**:
