@@ -20,10 +20,7 @@ conda activate python-pytorch
 pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu111/torch_stable.html
 pip install scikit-learn pandas matplotlib nni==2.3 pynvml tensorboard
 ```
-<<<<<<< Updated upstream
 **Note:** All dependencies of the project are in the `requirements.txt` we provide. You can also install them directly through this file after activating the virtual environment.  
-=======
->>>>>>> Stashed changes
 
 ### Datasets and Models
 1. **Structure of Important Folders**:
@@ -65,15 +62,9 @@ pip install scikit-learn pandas matplotlib nni==2.3 pynvml tensorboard
    - Location: https://github.com/jjy1994/MemGuard/tree/master/data/location \
      Download `data_complete.npz` and put it into the `data/dataset/location` folder.          
    - Texas: https://www.comp.nus.edu.sg/~reza/files/dataset_texas.tgz \
-<<<<<<< Updated upstream
      Download and unzip `texas/100/feats.txt` and `texas/100/labels.txt` and put them into the `data/dataset/texas` folder.
    - Purchase: https://www.comp.nus.edu.sg/~reza/files/dataset_purchase.tgz \
      Download and unzip `dataset_purchase` and put it into the `data/dataset/purchase100` folder and rename it to `purchase100.txt`.
-=======
-     Download `feats.txt` and `labels.txt` and put them into the `data/dataset/texas` folder.
-   - Purchase: https://www.comp.nus.edu.sg/~reza/files/dataset_purchase.tgz \
-     Download `purchase100.txt` and put it into the `data/dataset/purchase100` folder.
->>>>>>> Stashed changes
 
    It should be noted that since the training data and test data need to be manually split for tabular datasets, it is necessary to ensure that the mem-scores correspond to the split training data. Here, we provide our split Location dataset `location.pkl`, in which the training data matches the mem-scores of the corresponding data we gave.
    
